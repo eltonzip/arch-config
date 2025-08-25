@@ -1,8 +1,8 @@
 #!/bin/env bash
 
-sudo pacman -S --needed xorg-xwayland sway wmenu swaylock swaync alacritty grim flameshot        \
-	obs-studio pavucontrol firefox krita libreoffice-fresh xdg-desktop-portal-wlr                \
-	zathura zathura-djvu zathura-pdf-mupdf imv noto-fonts-cjk noto-fonts-extra noto-fonts-emoji  \
+sudo pacman -S --needed wl-clipboard xorg-xwayland sway wmenu swaylock swaync alacritty grim flameshot        \
+	obs-studio pavucontrol firefox krita libreoffice-fresh xdg-desktop-portal-wlr                             \
+	zathura zathura-djvu zathura-pdf-mupdf imv noto-fonts-cjk noto-fonts-extra noto-fonts-emoji               \
 	ntfs-3g ranger mpv bluez pipewire-audio pipewire-pulse polkit
 
 mkdir -p $HOME/.config/
