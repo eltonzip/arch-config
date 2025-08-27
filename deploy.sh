@@ -15,6 +15,10 @@ ln -s $(pwd)/ranger/ $HOME/.config/ranger
 sed -i '$a\
 \
 export MOZ_ENABLE_WAYLAND=1\
-alias Sway="dbus-run-session sway"' $HOME/.bashrc
+alias Sway="dbus-run-session sway"\
+alias Poweroff="systemctl poweroff"\
+alias Suspend="systemctl suspend"\
+alias Up-P="sudo pacman -Syu --noconfirm && systemctl poweroff\
+alias Up-R="sudo pacman -Syu --noconfirm && systemctl reboot"' $HOME/.bashrc
 
 sudo systemctl --user enable --now pipewire-pulse.service
