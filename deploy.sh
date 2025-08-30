@@ -18,7 +18,8 @@ export MOZ_ENABLE_WAYLAND=1\
 alias Sway="dbus-run-session sway"\
 alias Poweroff="systemctl poweroff"\
 alias Suspend="systemctl suspend"\
-alias Up-P="sudo pacman -Syu --noconfirm && systemctl poweroff\
+alias Up="sudo pacman -Syu"\
+alias Up-P="sudo pacman -Syu --noconfirm && systemctl poweroff"\
 alias Up-R="sudo pacman -Syu --noconfirm && systemctl reboot"' $HOME/.bashrc
 
 sudo systemctl --user enable --now pipewire-pulse.service
