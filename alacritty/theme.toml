@@ -1,4 +1,5 @@
 # KDE Breeze (Ported from Konsole)
+# Slightly modified by me
 
 # Default colors
 [colors.primary]
@@ -26,7 +27,7 @@ red = '#c0392b'
 green = '#1cdc9a'
 yellow = '#fdbc4b'
 blue = '#3daee9'
-magenta = '#8e44ad'
+magenta = '#ca8be5'
 cyan = '#16a085'
 white = '#ffffff'
 
